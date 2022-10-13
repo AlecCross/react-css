@@ -1,0 +1,19 @@
+.block {
+    text-align: center;
+}
+.block__row {
+    display: flex;
+    align-items: flex-end;
+    border: 20px solid #ece89d;
+    margin: 0px 0px 20px 0px;
+}
+.block__column {
+    border: 20px solid rgb(85, 63, 97);
+}
+.block__item {
+    background-color: rgb(0, 163, 95);
+    padding: 50px;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+}
