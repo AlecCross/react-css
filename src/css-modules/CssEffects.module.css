@@ -1,0 +1,46 @@
+.textEllipsis {
+    border: 2px solid brown;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textClip {
+    border: 2px solid brown;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.textEllipsis:hover {
+    overflow: visible;
+}
+.textClip:hover {
+    overflow: visible;
+}
+
+.vert {
+    writing-mode: vertical-rl;
+}
+
+.wrap {
+    width: 50px;
+    overflow: hidden;
+    border: 2px solid brown;
+    word-wrap: break-word;
+}
+
+.glow {
+    color: rgb(237, 237, 151);
+    text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 31px #fff,
+        0 0 55px rgb(255, 226, 4),
+        0 0 91px rgb(255, 226, 4),
+        0 0 100px rgb(255, 226, 4),
+        0 0 122px rgb(255, 226, 4),
+        0 0 140px rgb(255, 226, 4);
+}

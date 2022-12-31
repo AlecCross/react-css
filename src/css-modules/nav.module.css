@@ -263,7 +263,7 @@ body .menu__list > li:hover .menu__sub_list{
         transform: translate(-100%, 0px);
         background-color: rgba(0, 0, 0, 0.9);
         padding: 100px 30px 30px 30px;
-        transition: all 0.3s ease 0s;
+        /* transition: all 0.3s ease 0s; */
         overflow: auto;
     }
     .menu__body._active{
@@ -282,7 +282,6 @@ body .menu__list > li:hover .menu__sub_list{
     }
     
 }
-
 
 .header__logo::after {
     content: "Logo";

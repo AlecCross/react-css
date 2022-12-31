@@ -15,10 +15,98 @@ import styles11 from '../css-modules/flex/flexbox11.module.css'
 import styles12 from '../css-modules/flex/flexbox12.module.css'
 import styles13 from '../css-modules/flex/flexbox13.module.css'
 import styles14 from '../css-modules/flex/flexbox14.module.css'
+import styles15 from '../css-modules/flex/flexbox15.module.css'
 
 const FlexBox = () => {
     return <>
         <BackToMain />
+        <p>Note: ‘|’ stands for alternatives or OR.</p>
+        <br />
+        <h1>Flexbox</h1>
+        <br />
+        <p>The syntax for creating a flexbox:</p>
+        <p>{`selector{
+                display: flex | inline-flex
+            }`
+        }</p>
+        <br />
+        <p>
+            Here the selector can refer to any of the following flex attributes
+        </p>
+        <br />
+        <ul>
+            <li>Attribute selector</li>
+            <li>Class Selector</li>
+            <li>ID Selector</li>
+            <li>Type Selectors</li>
+            <li>Universal Selectors</li>
+        </ul>
+        <br />
+        <p>The display relates to how you want the selector to be shown. Setting display to flex makes the given selector a flex box. Setting display to inline-flex makes the selector a flex box container while will be inline. </p>
+        <br />
+        <h2>Properties for flexbox container</h2><br />
+        <h3>flex-direction: row | row-reverse | column | column-reverse</h3><br />
+        <p>It is possible to specify the direction your elements will follow. Traditionally text goes from left to right which is flex’s default setting however it can be set from right to left or even top to bottom. The four flex-direction are:</p><br />
+        <ul>
+            <li>row : organized from left to right </li>
+            <li>row-reverse: organized from right to left </li>
+            <li>column: organized from top to bottom</li>
+            <li>column-reverse: organized from bottom to top. </li>
+        </ul><br />
+        <p><b>flex-wrap: wrap | nowrap</b></p><br />
+        <p>The standard layout is to plot the elements from left to right in a straight line. The wrap feature allows you customize this to match the size of the window displaying the page. </p><br />
+        <ul>
+            <li>wrap: Automatically wrap the items with as the window space gets smaller. </li>
+
+            <li>Nowrap: Default setting, items remain rigid and don’t respond  to adjustments made to the window size.</li>
+        </ul>
+        <br />
+        <p><b>align-items: flex-start | flex-end | center |Stretch</b></p><br />
+
+        <p>
+            This determines how the flex items are to be positioned on the page. Items can be aligned in a variety of ways
+
+        </p><br />
+        <ul>
+            <li>Flex-start: Similar to standard writing, items start at the top left-hand corner and are positioned from left to right </li>
+            <li>Flex-end: Position begins in the bottom right hand corner. </li>
+            <li>Center: Item is positioned from the center. </li>
+            <li>Stretch: item expands to fill the container. </li>
+        </ul><br />
+
+        <p><b>justify-content: flex-start | flex-end | center | space-between | space-evenly</b></p><br />
+
+        <p>Justify-content determines the alignment of the flex items.</p> <br />
+
+        <ul>
+            <li>Flex-start: goes from right to left along the main axis. </li>
+            <li>Flex-end: goes from left to right along the main axis. </li>
+            <li>Center: Starting at the middle, alignments expands from there. </li>
+            <li>Space-between: first and last item are flush with the left and right wall respectively, every other item is evenly spaced. </li>
+            <li>Space-evenly: each item is equidistant from each other and the boundary wall </li>
+        </ul><br />
+
+        <h3>Properties for flexbox items (child)</h3><br />
+        <p><b>flex-grow: factor of flex’s main size</b></p>  <br />
+
+        <p>This attribute enables the flex container to grow proportionally to the other containers present. </p><br />
+
+        <p><b>flex-shrink: factor of flex’s main size</b></p><br />
+
+        This allows elements to shrink in relation to items around it.
+
+        <p><b>flex-basis: auto | factor of main’s size | measurement unit</b></p><br />
+
+        The sets the initial main size of an item. It can be overridden if other stylized elements are configured.
+
+        <p><b>order:position in flex /* Set ascending by default */</b></p><br />
+
+        The standard positioning of items is by source order, however this feature will enable you to configure where the items appear on the page.
+
+        <p><b>align-self:  start | center | end | stretch</b></p><br />
+
+        <p>This determines where on the page the child items will be positioned. Similar to the main flex attributes, start is to the left and end is to the right.</p><br />
+
         <p>Без Флекса</p>
         <div className={styles.block}>
             <div className={styles.block__row}>
@@ -387,6 +475,39 @@ const FlexBox = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+            <p>
+                {`.flex-container{
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            flex-wrap: wrap;
+                            align-items:flex-end;
+                            gap:10px;
+                            `}
+            </p>
+            <p>{`.box{
+                    background-color: aquamarine;
+                    border-radius: 5px;
+                    margin: 2px;
+                    padding: 10px;
+                }`}</p>
+            <p>{`.box3{
+                            background-color: blanchedalmond;
+                            align-self: center;
+                    }`
+            }
+            </p>
+        </div>
+        <div className={styles15.flexContainer}>
+            <div className={styles15.box}>  One..</div>
+            <div className={styles15.box}>  Two..</div>
+            <div className={styles15.box3}>  Three..</div>
+            <div className={styles15.box}>  Four..</div>
+            <div className={styles15.box}>  Five..</div>
+            <div className={styles15.box}>  Six..</div>
+            <div className={styles15.box}>  Seven..</div>
         </div>
     </>
 }

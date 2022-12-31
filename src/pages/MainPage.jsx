@@ -37,6 +37,36 @@ const MainPage = () => {
         <NavLink to="/nav">
             Navbar
         </NavLink>
+        <br />
+        <br />
+        <NavLink to="/multi-button-menu">
+            MultiButtonMenu
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/CSSunitsOfMeasurement">
+            CSS units of measurement
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/FOOTER_BOTTOM_OF_PAGE">
+            FOOTER BOTTOM OF PAGE. FLEX
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/CssSelectors">
+            CssSelectors
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/PseudoClasses">
+            PseudoClasses
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/CssEffects">
+            CssEffects
+        </NavLink>
     </div>
 }
 

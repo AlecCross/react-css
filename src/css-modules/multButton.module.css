@@ -1,0 +1,90 @@
+.mainButton {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    transition: border-radius 40% 1s 1s;
+    transition-duration: 1s;
+    z-index: 999;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+}
+
+.mainButton:hover {
+    background-color: rgb(103, 103, 187);
+    border-radius: 45%;
+}
+
+.mainButton::after {
+    transition: content;
+    transition-duration: 1s;
+}
+
+.secondButton {
+    position: relative;
+    left: 50px;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(30, 255, 0);
+    border-radius: 50%;
+    animation-name: slideinC;
+    animation-duration: 1s;
+    z-index: 5;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+.thirdButton {
+    position: relative;
+    left: 5px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    animation-name: slideinB;
+    animation-duration: 1s;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+@keyframes slideinB {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+        transform: translatey(0px);
+        opacity: 0;
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(10px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+        transform: translatey(0px);
+    }
+}
+
+@keyframes slideinC {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+        transform: translatex(0px);
+        opacity: 0;
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatex(10px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+        transform: translatex(0px);
+    }
+}
+
+.navLink {
+    display: block;
+    padding: 10px;
+}

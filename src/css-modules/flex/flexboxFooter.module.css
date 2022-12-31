@@ -1,0 +1,26 @@
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #009ef3;
+    padding: 15px;
+    text-align: center
+}
+
+
+.main {
+    flex: 1 1 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #ff7b50;
+    padding: 15px;
+    text-align: center
+}

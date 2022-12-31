@@ -86,7 +86,7 @@ const Page3 = () => {
                 <br />
                 <br />
                 <p>Тег img</p>
-                <img class={styles.widthBlockStringImg} src='/Placeholder.jpg' alt='image' />
+                <img class={styles.widthBlockStringImg} src='/Placeholder.jpg' alt='image1' />
             </div>
             <div>
                 <h3>MaxWidth</h3>
@@ -114,7 +114,7 @@ const Page3 = () => {
                 <h4>Картинка Width 100%, с ограничениями по minWidth и maxWidth</h4>
                 <img
                     class={styles.imageWidth}
-                    src='/Placeholder.jpg' alt='image'
+                    src='/Placeholder.jpg' alt='image2'
                 />
             </div>
             <br />
@@ -127,7 +127,7 @@ const Page3 = () => {
                 </div>
                 <img
                     class={styles.heightBlockImg}
-                    src='/Placeholder.jpg' alt='image'
+                    src='/Placeholder.jpg' alt='image3'
                 />
             </div>
             <div>
@@ -140,7 +140,7 @@ const Page3 = () => {
                 </div>
                 <img
                     class={styles.maxHeightBlockImg}
-                    src='/Placeholder.jpg' alt='image'
+                    src='/Placeholder.jpg' alt='image4'
                 />
                 <h3>св-во minHeigth</h3>
                 <p>Работает подобно minWidth только по вертикали и так же не работает со строчными тегами кроме некоторых</p>

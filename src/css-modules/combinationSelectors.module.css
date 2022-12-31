@@ -1,0 +1,97 @@
+#blog h1 {
+    color: blue;
+}
+
+#blogChild>h1 {
+    color: blue;
+}
+
+#blogSibling h1~p {
+    color: blue;
+}
+
+#blogAdjacent div+p {
+    color: blue;
+}
+
+.wrapper {
+    color: #333333;
+    background-color: #EE9972;
+    font-family: Cambria;
+}
+
+div~ul {
+    background-color: #EDEFEE;
+    color: 495E57;
+    box-shadow: inset 1px 1px 3px #333333;
+    margin: 15px;
+}
+
+img+p {
+    color: #495E57;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    font-size: small;
+    font-family: Verdana;
+}
+
+li::first-letter {
+    color: coral;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::first-line {
+    color: lightseagreen;
+    text-decoration: underline;
+    line-height: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::selection {
+    color: brown;
+    background-color: antiquewhite;
+    line-height: 1;
+}
+
+#tips::before {
+    background: darkkhaki;
+    color: darkslategray;
+    content: "Tip:";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+
+#tips::after {
+    background: darkkhaki;
+    color: darkslategray;
+    content: "!!";
+    padding-right: 5px;
+    border-radius: 20%;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: white;
+    background-color: black;
+}
