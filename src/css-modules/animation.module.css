@@ -1,0 +1,103 @@
+.clock {
+    color: blue;
+    width: 150px;
+    margin-top: 50px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid blue 1px;
+}
+
+.minutes {
+    animation: cycle 6s infinite linear;
+    position: relative;
+    top: 65px
+}
+
+.hours {
+    color: red;
+    animation: cycle 60s infinite linear;
+    position: relative;
+    top: 50px
+}
+
+@keyframes cycle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+    animation: myanimation 3s infinite ease-in;
+}
+
+.box2 {
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+    animation: myanimation2 3s infinite ease-in;
+}
+
+@keyframes myanimation {
+    from {
+        width: 50px;
+    }
+
+    to {
+        width: 100px;
+    }
+}
+
+@keyframes myanimation2 {
+    0% {
+        width: 50px;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+
+@keyframes myanimation2 {
+    0% {
+        width: 50px;
+    }
+
+    50% {
+        background-color: aquamarine;
+        height: 20px;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(640px, 0, 0);
+    }
+}
+
+#ball {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #62687F;
+
+    animation: bounce 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+

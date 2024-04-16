@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import ProgressBar from './ProgressBar'
 
 const MainPage = () => {
     return <div style={{ textAlign: "center", fontSize: 36 }}>
@@ -66,6 +67,31 @@ const MainPage = () => {
         <br />
         <NavLink to="/CssEffects">
             CssEffects
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/CssTransformsTransitions">
+            CssTransformsTransitions
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/Animation">
+            Animation
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/PreprocessorsSassScssStylus">
+            Preprocessors: sass, scss, Stylus
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/Debugging">
+            Debugging
+        </NavLink>
+        <br />
+        <br />
+        <NavLink to="/ProgressBar">
+            ProgressBar
         </NavLink>
     </div>
 }

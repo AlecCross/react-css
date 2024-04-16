@@ -22,37 +22,47 @@ export default function CSS_units_of_measurement() {
         <p>
             The table for absolute units can be seen below:
         </p>
-        <table style={{border: "solid black 1px"}}>
-            <td style={{border: "solid black 1px"}}>
+        <table >
+            <tr >
                 <th>Unit</th>
-                <tr>Q</tr>
-                <tr>mm</tr>
-                <tr>cm</tr>
-                <tr>in</tr>
-                <tr>pc</tr>
-                <tr>pt</tr>
-                <tr>px</tr>
-            </td>
-            <td style={{border: "solid black 1px"}}>
                 <th>Name</th>
-                <tr>Quarter-millimeters</tr>
-                <tr>Millimeters</tr>
-                <tr>Centimeters</tr>
-                <tr>Inches</tr>
-                <tr>Picas</tr>
-                <tr>Points</tr>
-                <tr>Pixels</tr>
-            </td>
-            <td style={{border: "solid black 1px"}}>
                 <th>Comparison</th>
-                <tr>1Q = 1/40th of 1cm</tr>
-                <tr>1mm = 1/10th of 1cm</tr>
-                <tr>1cm = 37.8px = 25.2/64in</tr>
-                <tr>1in = 2.54cm = 96px</tr>
-                <tr>1pc = 1/6th of 1in</tr>
-                <tr>1pt = 1/72nd of 1in</tr>
-                <tr>1px = 1/96th of 1in</tr>
-            </td>
+            </tr>
+            <tr >
+                <td>Q</td>
+                <td>Quarter-millimeters</td>
+                <td>1Q = 1/40th of 1cm</td>
+            </tr>
+            <tr>
+                <td>mm</td>
+                <td>Millimeters</td>
+                <td>1mm = 1/10th of 1cm</td>
+            </tr>
+            <tr>
+                <td>cm</td>
+                <td>Centimeters</td>
+                <td>1cm = 37.8px = 25.2/64in</td>
+            </tr>
+            <tr>
+                <td>in</td>
+                <td>Inches</td>
+                <td>1in = 2.54cm = 96px</td>
+            </tr>
+            <tr>
+                <td>pc</td>
+                <td>Picas</td>
+                <td>1pc = 1/6th of 1in</td>
+            </tr>
+            <tr>
+                <td>pt</td>
+                <td>Points</td>
+                <td>1pt = 1/72nd of 1in</td>
+            </tr>
+            <tr>
+                <td>px</td>
+                <td>Pixels</td>
+                <td>1px = 1/96th of 1in</td>
+            </tr>
         </table>
         <br />
         <p>Of these, the pixels and centimeters are most frequently used for defining properties. </p>
@@ -63,35 +73,55 @@ export default function CSS_units_of_measurement() {
             When you create a web page, you will almost never have only a single element present inside it. Even in case of containers such as flexboxes and grids, there’s usually more than one element present that rules are applied to. Relative values are defined ‘in relation’ to the other elements present inside the parent element. Additionally, they are defined ‘in relation’ to the viewport or the size of the visible web page. Given the dynamic nature of web pages today and the variable size of devices in use, relative units are the go-to option in many cases. Below is a list of some of the important relative units.
         </p>
         <br />
-        <table style={{border: "solid black 1px"}}>
-            <td style={{border: "solid black 1px"}}>
+        <table >
+            <tr >
                 <th>Unit</th>
-                <tr>em</tr>
-                <tr>ex</tr>
-                <tr>ch</tr>
-                <tr>rem</tr>
-                <tr>lh</tr>
-                <tr>rlh</tr>
-                <tr>vw</tr>
-                <tr>vh</tr>
-                <tr>vmin</tr>
-                <tr>vmax</tr>
-                <tr>%</tr>
-            </td>
-            <td style={{border: "solid black 1px"}}>
                 <th>Description and relativity</th>
-                <tr>Font size of the parent where present.</tr>
-                <tr>x-co-ordinate or height of the font element.</tr>
-                <tr>Width of the font character.</tr>
-                <tr>Font size of the root element.</tr>
-                <tr>Value computed for line height of parent element. </tr>
-                <tr>Value computed for line height of root element which is html. </tr>
-                <tr>1% of the viewport width.</tr>
-                <tr>1% of the viewport height.</tr>
-                <tr>1% of the smaller dimension of viewport.</tr>
-                <tr>1% of the larger dimension of viewport.</tr>
-                <tr>Denotes a percentage value in relation to its parent element. </tr>
-            </td>
+            </tr>
+            <tr >
+                <td>em</td>
+                <td>Font size of the parent where present.</td>
+            </tr>
+            <tr >
+                <td>ex</td>
+                <td>x-co-ordinate or height of the font element.</td>
+            </tr>
+            <tr >
+                <td>ch</td>
+                <td>Width of the font character.</td>
+            </tr>
+            <tr >
+                <td>rem</td>
+                <td>Font size of the root element.</td>
+            </tr>
+            <tr >
+                <td>lh</td>
+                <td>Value computed for line height of parent element. </td>
+            </tr>
+            <tr >
+                <td>rlh</td>
+                <td>Value computed for line height of root element which is</td>
+            </tr>
+            <tr >
+                <td>vw</td>
+                <td>1% of the viewport width.</td>
+            </tr>
+            <tr >
+                <td>vh</td>
+                <td>1% of the viewport height.</td>
+            </tr>
+            <tr >
+                <td>vmin</td>
+                <td>1% of the smaller dimension of viewport. </td>
+            </tr>
+            <tr >
+                <td>vmax</td>
+                <td>1% of the larger dimension of viewport.</td>
+            </tr>
+            <tr >
+                <td>%</td>
+                <td>Denotes a percentage value in relation to its parent element. </td>
+            </tr>
         </table>
         <br />
         <p>

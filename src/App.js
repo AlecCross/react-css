@@ -1,19 +1,26 @@
 import React from 'react'
 import { HashRouter, Switch, Redirect, Route } from 'react-router-dom'
-import CssEffects from './pages/CssEffects'
-import CssSelectors from './pages/CssSelectors'
-import CSSunitsOfMeasurement from './pages/CSS_units_of_measurement'
-import FlexBox from './pages/FlexBox'
-import FooterBottomOfPage from './pages/FooterBottomOfPage'
-import MainPage from './pages/MainPage'
-import MultiButtonMenu from './pages/MultiButtonMenu'
-import NavBar from './pages/NavBar'
-import Page1 from './pages/Page1'
-import Page2 from './pages/Page2'
-import Page3 from './pages/Page3'
-import Page4 from './pages/Page4'
-import Page5 from './pages/Page5'
-import PseudoClasses from './pages/PseudoClasses'
+import {
+  Animation,
+  CssEffects,
+  CssSelectors,
+  CssTransformsTransitions,
+  CSSunitsOfMeasurement,
+  Debugging,
+  FlexBox,
+  FooterBottomOfPage,
+  MainPage,
+  MultiButtonMenu,
+  NavBar,
+  Page1,
+  Page2,
+  Page3,
+  Page4,
+  Page5,
+  PreprocessorsSassScssStylus,
+  PseudoClasses
+} from './pages'
+import ProgressBar from './pages/ProgressBar'
 
 function App() {
   return <HashRouter>
@@ -59,6 +66,21 @@ function App() {
       </Route>
       <Route path="/CssEffects" exact>
         <CssEffects />
+      </Route>
+      <Route path="/CssTransformsTransitions" exact>
+        <CssTransformsTransitions />
+      </Route>
+      <Route path="/Animation" exact>
+        <Animation />
+      </Route>
+      <Route path="/PreprocessorsSassScssStylus" exact>
+        <PreprocessorsSassScssStylus />
+      </Route>
+      <Route path="/Debugging" exact>
+        <Debugging />
+      </Route>
+      <Route path="/ProgressBar" exact>
+        <ProgressBar percentage={9999} />
       </Route>
       <Redirect to="/" />
     </Switch>

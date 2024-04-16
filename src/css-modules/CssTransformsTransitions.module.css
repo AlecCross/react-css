@@ -1,0 +1,69 @@
+.a {
+    margin: 30px;
+    transform: skewX(20deg);
+    transition: 5s;
+}
+
+.b {
+    margin: 100px;
+    transform: rotate(20deg);
+    transition: 5s;
+}
+
+.box {
+    display: grid;
+    width: 240px;
+    height: 240px;
+    margin: 100px;
+    background-color: rgba(55, 255, 5, 0.5);
+    border-radius: 12px;
+    border: solid #6feb6f 4px;
+}
+
+.box:hover {
+    transform: rotateZ(60deg);
+    background-color: lightcoral;
+    opacity: 50%;
+    transition: 2s;
+}
+
+/* Lab 2w (solution) */
+/*  {
+    padding: 0;
+    margin: 0;
+    color: pink;
+} */
+
+.container {
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.letters p {
+    text-align: center;
+    background-color: rgb(250, 150, 100);
+    width: 70px;
+    margin-right: 1.5px;
+    border-radius: 15%;
+    border-color: rgb(250, 125, 75);
+    border-style: solid;
+}
+
+.letters:hover p:nth-child(even) {
+    transform: rotateY(360deg);
+    transition: 0.5s;
+}
+
+.letters:hover p:nth-child(odd) {
+    transform: rotateX(360deg);
+    transition: 1.5s;
+}

@@ -49,7 +49,7 @@ export default function PseudoClasses() {
             <li>Optio culpa sequi unde animi vero?</li>
             <li>Aliquam molestias consectetur magnam nostrum ducimus iste asperiores.</li>
         </ul>
-        <img src="http://localhost:3000/react-css/CSS Selectors/ik0QcFB_T_GNEHBQf4_xMw_bf608e673a0941bba2048e98289e4ce1_Picture22.png" alt="" />
+        <img src="https://aleccross.github.io/react-css/CSS Selectors/ik0QcFB_T_GNEHBQf4_xMw_bf608e673a0941bba2048e98289e4ce1_Picture22.png" alt="" />
         <p></p>
         <p>Although the code only changed the first letter of each bullet point, it makes a big difference in terms of presentation. Now let’s change the font in a different way. </p>
         <p><b>::first-line</b></p>
@@ -71,7 +71,7 @@ export default function PseudoClasses() {
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut alias labore iure exercitationem, at voluptate a magnam. Inventore a rem voluptatem nulla aperiam, suscipit similique enim quaerat quia quasi. Tempore?</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolore ipsum perspiciatis provident in laborum, quidem consectetur facere deleniti ratione obcaecati magnam illo dolorum blanditiis optio voluptas asperiores? Possimus, dignissimos?</li>
         </ul>
-        <img src="http://localhost:3000/react-css/CSS Selectors/Btxtv5_LSmacbb-fy_pmzA_0a64c347b7cc4897a733495266328ee1_Picture33.png" alt="" />
+        <img src="https://aleccross.github.io/react-css/CSS Selectors/Btxtv5_LSmacbb-fy_pmzA_0a64c347b7cc4897a733495266328ee1_Picture33.png" alt="" />
         <p></p>
         <p>Because it’s only the first line of each bullet point, it almost functions like dividers between the three different points instead of having to rely on bullets.</p>
         <p>Note that the contents of the line to which this pseudo-element is applied will change as you increase or decrease the size of your viewport.</p>
@@ -81,7 +81,7 @@ export default function PseudoClasses() {
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut alias labore iure exercitationem, at voluptate a magnam. Inventore a rem voluptatem nulla aperiam, suscipit similique enim quaerat quia quasi. Tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque minima consequatur amet? Deserunt iste itaque est officiis eius quo necessitatibus commodi. Ut, quo necessitatibus provident voluptatum blanditiis quod minus officiis.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolore ipsum perspiciatis provident in laborum, quidem consectetur facere deleniti ratione obcaecati magnam illo dolorum blanditiis optio voluptas asperiores? Possimus, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dolores culpa nisi quasi ratione provident, non sint dolore perferendis illo deleniti fugiat animi sequi natus excepturi delectus pariatur ipsa praesentium!</li>
         </ul>
-        <img src="http://localhost:3000/react-css/CSS Selectors/meLH3ynzRGOix98p8yRj6g_a5b3bf4ca3cb4cc3ba3b690416a3b1e1_Picture44.png" alt="" />
+        <img src="https://aleccross.github.io/react-css/CSS Selectors/meLH3ynzRGOix98p8yRj6g_a5b3bf4ca3cb4cc3ba3b690416a3b1e1_Picture44.png" alt="" />
         <p></p>
         <p><b>::selection</b></p>
         <p>Selection is another useful pseudo-element. For example, you may use it when you are taking notes on your device because it allows you to highlight specific text. The effect of it becomes obvious only after the user selects content. On web pages today, you will typically see inverted colors from white-black to black-white when selecting a portion of text.</p>

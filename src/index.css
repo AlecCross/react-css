@@ -1,24 +1,41 @@
 /*Обнуление*/
-/* *{
+* {
 	padding: 0;
 	margin: 0;
 	border: 0;
 }
-*,*:before,*:after{
+
+*,
+*:before,
+*:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
 
-nav,footer,header,aside{display: block;}
+:focus,
+:active {
+	outline: none;
+}
 
-html,body{
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
 	padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
+	/* padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px; */
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
@@ -28,14 +45,136 @@ html,body{
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-input,button,textarea{font-family:inherit;}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;} */
+input,
+button,
+textarea {
+	font-family: inherit;
+}
 
-/* h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} */
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table th {
+	border: solid black 1px;
+	padding: 5px;
+}
+
+table td {
+	border: solid black 1px;
+	padding: 5px;
+}
+
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2.5em;
+}
+
+h4 {
+	font-size: 2.2em;
+}
+
+h5 {
+	font-size: 1.9em;
+}
+
+h6 {
+	font-size: 1.5em;
+}
+
+div {
+	border: 1px rgb(223, 223, 223) solid;
+}
+
+p::first-letter {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: rgb(61, 61, 61);
+}
+
+/* 
+p {
+	text-indent: 2%;
+} */
+
+b {
+	font-size: 1.3em;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+@media only screen and (min-width: 150px) {
+	body {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 719px) {
+	body {
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	body {
+		width: 70%;
+	}
+}

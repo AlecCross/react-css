@@ -191,17 +191,17 @@ export default function CssSelectors() {
 }`}
 
         <div>
-            <img src="http://localhost:3000/react-css/logo192.png" alt="logo1921" width={320} />
+            <img src="https://aleccross.github.io/react-css/logo192.png" alt="logo1921" width={320} />
             <p>First paragraph after image tag</p>
 
             <p>Second Paragraph tag</p>
             <p>Another Paragraph tag</p>
 
-            <img src="http://localhost:3000/react-css/logo192.png" alt="logo1922" width={320} />
+            <img src="https://aleccross.github.io/react-css/logo192.png" alt="logo1922" width={320} />
             <div>Div tag after image</div>
             <p>Paragraph</p>
 
-            <img src="http://localhost:3000/react-css/logo192.png" alt="logo1923" width={320} />
+            <img src="https://aleccross.github.io/react-css/logo192.png" alt="logo1923" width={320} />
             <p>First paragraph after image tag</p>
         </div>
     </>

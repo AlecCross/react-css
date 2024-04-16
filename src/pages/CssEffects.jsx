@@ -80,21 +80,146 @@ export default function CssEffects() {
             <p>Glow css:</p>
             <p>{`.glow {
                 color: rgb(237, 237, 151);
-            text-shadow:
-            0 0 7px #fff,
-            0 0 10px #fff,
-            0 0 31px #fff,
-            0 0 55px rgb(255, 226, 4),
-            0 0 91px rgb(255, 226, 4),
-            0 0 100px rgb(255, 226, 4),
-            0 0 122px rgb(255, 226, 4),
-            0 0 140px rgb(255, 226, 4);
+                text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 31px #fff,
+                0 0 55px rgb(255, 226, 4),
+                0 0 91px rgb(255, 226, 4),
+                0 0 100px rgb(255, 226, 4),
+                0 0 122px rgb(255, 226, 4),
+                0 0 140px rgb(255, 226, 4);
             }`}</p>
         </div>
         <p>In this example, I use a property called text shadow, which has a shorthand with four values. The first value is the x-coordinate, which represents the horizontal shadow. The second is the y-coordinate, which represents the vertical shadow. The third is the blur radius, and the fourth is the shadow color.</p>
         <p>This next example explores an extension of the same idea. My HTML code has two heading tags, each with the class name glow. In the corresponding CSS code I've added the text shadow effects for that class. I can use the output to determine whether I need to adjust the color effects until I'm happy with it.</p>
         <p>That's all my examples. In this video, you learned how to add effects to your text using a few simple rules in CSS.</p>
 
+        <h2>Text effects cheat sheet</h2>
+        <p>The effects developers use on text items on a web page are chosen mainly because of their styling and layout style. Interesting effects can be created by combining these with other CSS properties. </p>
+        <p>The visual representation of text content can be changed by four main properties: text-transform, font-style, font-weight and text-decoration.</p>
 
+        <table>
+            <tr>
+                <th>Property </th>
+                <th>Values</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Text-transform</td>
+                <td>None, uppercase, lowercase, capitalize, full-width</td>
+                <td>Modify text properties</td>
+            </tr>
+            <tr>
+                <td>Font-style</td>
+                <td>Normal, italic, oblique</td>
+                <td>Font styling options such as italics</td>
+            </tr>
+            <tr>
+                <td>Font-weight</td>
+                <td>Normal, weight, lighter, bolder, 100-900</td>
+                <td>Other font styling options like change of emphasis such as making text bold</td>
+            </tr>
+            <tr>
+                <td>Text-decoration</td>
+                <td>None, underline, overline, line-through</td>
+                <td>Shorthand for auxiliary elements added to text using other properties such as text-decoration-line</td>
+            </tr>
+        </table>
+        <p>The additional properties that help configure styling effects are below.</p>
+        <table>
+            <tr>
+                <th>Text-align</th>
+                <th>For horizontal alignment of text</th>
+            </tr>
+            <tr>
+                <td>Text-align-last</td>
+                <td>Alignment for the last line when text set to justify</td>
+            </tr>
+
+            <tr>
+                <td>Text-combine-upright</td>
+                <td>Multiple characters into the space of a single character placed upright like in Mandarin</td>
+            </tr>
+
+            <tr>
+                <td>Text-decoration-color</td>
+                <td>Color configuration of the text-decoration</td>
+            </tr>
+
+            <tr>
+                <td>Text-decoration-line</td>
+                <td>Line type in text-decoration such as underline, overline and so on</td>
+            </tr>
+
+            <tr>
+                <td>Text-decoration-style</td>
+                <td>Styles added to lines under text such as wavy, dotted and so on</td>
+            </tr>
+
+            <tr>
+                <td>Text-decoration-thickness</td>
+                <td>Thickness of the decoration line</td>
+            </tr>
+
+            <tr>
+                <td>Text-emphasis</td>
+                <td>Shorthand for other properties such as color and style</td>
+            </tr>
+
+            <tr>
+                <td>Text-indent</td>
+                <td>The indentation of the first line</td>
+            </tr>
+
+            <tr>
+                <td>Text-justify</td>
+                <td>Specifies the justification method used when text-align is "justify"</td>
+            </tr>
+
+            <tr>
+                <td>Text-orientation</td>
+                <td>Orientation of text in a line such as sideways, upright and so on</td>
+            </tr>
+
+            <tr>
+                <td>Text-shadow</td>
+                <td>Adds shadow to text</td>
+            </tr>
+
+            <tr>
+                <td>Text-underline-position</td>
+                <td>Declare position of underline set using the text-decoration property</td>
+            </tr>
+        </table>
+        <p>Other than these, there are some more properties that help modify the alignment and define the scope of text with their containers.</p>
+        <table>
+            <tr>
+                <th>Property</th>
+                <th>Values</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Text-overflow</td>
+                <td>Clip, ellipsis</td>
+                <td>Determines overflow behavior of text with the container</td>
+            </tr>
+            <tr>
+                <td>Word-wrap</td>
+                <td>Normal, anywhere, break-word</td>
+                <td>Applies to inline elements, alias for overflow-wrap</td>
+            </tr>
+            <tr>
+                <td>Word-break</td>
+                <td>Normal, break-all, keep-all, break-word</td>
+                <td>Used for long words to decide if words should break or overflow</td>
+            </tr>
+            <tr>
+                <td>Writing-mode</td>
+                <td>Horizontal-tb, vertical-lr, vertical-rl</td>
+                <td>Can set the text direction vertical or horizontal</td>
+            </tr>
+        </table>
+        <p>The properties mentioned are ones that can be used for giving effects to text. </p>
     </>
 }
